@@ -21,5 +21,6 @@ Route::get('/',[HomeController::class, "index"])->name('home');
 Route::get('/about', [AboutController::class, "index"])->name('about');
 Route::get('/gallery', [GalleryController::class, "index"])->name('gallery');
 Route::get('/contact', [ContactController::class, "index"])->name('contact');
+Route::post('/contact/submit', [ContactController::class, "store"])->name('contact/submit');
 
   
