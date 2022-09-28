@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class contactModel extends Model
 {
-
     protected $table = 'contact';
     protected $primarykey = 'id';
     use HasFactory;
